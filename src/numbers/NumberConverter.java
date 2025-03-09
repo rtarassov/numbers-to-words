@@ -49,7 +49,7 @@ public class NumberConverter {
     if (remainder > 0) {
       response.append(processRemainder(remainder));
     }
-
+    System.out.printf("Number %d -> %s%n", number, response.toString().trim());
     return response.toString().trim();
   }
 
