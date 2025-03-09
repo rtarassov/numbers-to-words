@@ -1,0 +1,9 @@
+/target
+/out
+*.class
+*.jar
+/.idea/*
+!/.idea/misc.xml
+!/.idea/icd0019.iml
+!/.idea/modules.xml
+
