@@ -19,9 +19,6 @@ public class NumberConverter {
     if (number == 0) {
       return properties.getProperty("0");
     }
-    if (number == 1000000000) {
-      return convertOneBillion(number);
-    }
 
     return calculateWords(number);
   }
